@@ -3,13 +3,13 @@ import styled from "styled-components"
 export const CardContainer = styled.span`
    display: flex;
    flex-direction: column;
-   background-color: lavender;   
+   background-color: lightgray;   
    margin: 5px;
    padding: 15px;
    border-radius: 5px;
    width: 250px;
    align-items: center;
-     
+   border-radius: 55px ;
 `
 
 export const CardContent = styled.span`
@@ -35,7 +35,7 @@ export const Caixas = styled.div`
    display: flex;
    justify-content: center;
    padding-top: 7vh;
-   /* padding: 5px; */
+   height: 50px;
 `
 
 export const ConfigCaixa = styled.div`

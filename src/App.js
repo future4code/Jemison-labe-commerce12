@@ -31,9 +31,6 @@ function App() {
     setProdutosLista(novaLista)
   }
 
-
-
-
   return (
     <div>
       <ConfigCaixa>
@@ -46,10 +43,7 @@ function App() {
         <Caixas>
           <input type="number" placeholder="Pesquise o Valor" onChange={filtrarMaiorPreco} value={maiorPreco}/>
         </Caixas>
-      </ConfigCaixa>
-        
-        
-     
+      </ConfigCaixa>     
       <Display>
       {produtosLista.map(produto => (
         <Card
